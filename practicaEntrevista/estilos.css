@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(#141e30, #243b55);
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    color: #FB2705;
+}
+label{
+    color:#C00356;
+}
+#estilobgFormulario{
+    
+    background: #0F1722;
+}
+.card{
+    margin-top: 20vh;
+    border-radius: 3%;
+}
+.estiloTitulo{
+    margin-top: 10%;
+}
+#imgLogin{
+    background: url("multimedia/usuario.png") center center no-repeat;
+}
+.estiloLoginLogo{
+    padding: 10%;
+}
+.btn{
+    margin-left: 72%;
+    background-color:#FB2705;
+    margin-bottom: 10%;
+}
+@media screen  and (max-width: 300px) and (min-width:250px){
+    .card{
+        margin-top: 25vh;
+        min-width: 225px;
+    }
+    .btn{
+        margin-left: 52%;
+    }    
+}
+@media screen  and (max-width: 400px) and (min-width:301px){
+    .card{
+        margin-top: 25vh;
+        min-width: 245px;
+    }
+    .btn{
+        margin-left: 52%;
+    }    
+}
+@media screen  and (max-width: 500px) and (min-width:401px){
+    .card{
+        margin-top: 20vh;
+        min-width: 330px;
+    }
+    .btn{
+        margin-left: 67%;
+    }    
+}
+@media screen  and (max-width: 600px) and (min-width:501px){
+    .card{
+        margin-top: 20vh;
+        min-width: 330px;
+    }
+    .btn{
+        margin-left: 67%;
+    }    
+}
+@media screen  and (max-width: 1000px) and (min-width:601px){
+    .card{
+        margin-top: 20vh;
+        min-width: 330px;
+    }
+    .btn{
+        margin-left: 67%;
+    }    
+}
+@media screen  and (max-width: 1199px) and (min-width:1001px){
+    .card{
+        margin-top: 20vh;
+        min-width: 360px;
+    }
+    .btn{
+        margin-left: 67%;
+    }    
+}
